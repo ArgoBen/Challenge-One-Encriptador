@@ -1,0 +1,204 @@
+.Escritorio{
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+	background: #F3F5FC;
+}
+svg{
+	position: absolute;
+	left: 6%;
+	right: 87.2%;
+	top: 5%;
+	bottom: 35%;
+}
+textarea{
+	resize: none;
+	border: none;
+	outline: none;
+}
+.CajaMensaje textarea{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+	background-color: #F3F5FC;
+}
+.CajaMensaje{
+	position: absolute;
+	width: 680px;
+	height: 288px;
+	left: 240px;
+	top: 168px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+.CajaMensajeSinCodificar{
+	position: absolute;
+	width: 400px;
+	height: 944px;
+	left: 1000px;
+	top: 40px;
+	background: #FFFFFF;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+}
+.MensajeSinCodificar textarea{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+}
+.MensajeSinCodificar{
+	position: absolute;
+	width: 336px;
+	height: 781px;
+	left: 1032px;
+	top: 72px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	color: #0A3871;
+}
+.Botones{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	position: relative;
+	left: 180px;
+	right: 872px;
+	top: 835px;
+	bottom: 72px;
+}
+.Encriptar{
+	width: 328px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+	background-color: #0A3871;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 24px;
+}
+.Encriptar:hover{
+	font-size: 22px;
+}
+.Desencriptar{
+	width: 328px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+	background-color: #F3F5FC;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 19px;
+	text-align: center;
+	color: #0A3871;
+	border-radius: 24px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 24px;
+}
+.Desencriptar:hover{
+	font-size: 22px;
+}
+.Copiar{
+	width: 328px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+	background-color: #FFFFFF;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 19px;
+	text-align: center;
+	color: #0A3871;
+	border-radius: 24px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0px 24px;
+	position: relative;
+	left: 55px;
+	right: 872px;
+	top: 0px;
+	bottom: 72px;
+}
+.Copiar:hover{
+	font-size: 22px;
+}
+.Advertencia{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 12px;
+	position: relative;
+	left: 180px;
+	right: 872px;
+	top: 835px;
+	bottom: 72px;
+}
+.BotonAdvertencia{
+	position: absolute;
+	width: 288px;
+	height: 47px;
+	left: 30px;
+	top: 0px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 8px;
+}
+.Aviso{
+	position: absolute;
+	width: 288px;
+	height: 47px;
+	left: 35px;
+	top: 0px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #495057;
+	opacity: 0.8;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 8px;
+}
+footer{
+	position: relative;
+	width: 1440px;
+	box-sizing: border-box;
+	background: #F3F5FC;
+	text-align: center;
+}
+.PiedePagina{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+}
